@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Building Control Site";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<div class="row" ng-app="buildingControlApp" ng-controller="buildingControlController">
+    <div style="background-color:aqua; height:15vw; width:15vw; color:aqua" onclick="UpdateBuildingStatesFromServer()">
+        <img id="TyroSoftImg" src="/images/light_off.png" style="height:13vw; position:relative; top:1vw; left:1vw " alt="Visual Studio" />
+    </div>
+</div>
